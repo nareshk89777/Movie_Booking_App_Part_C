@@ -1,6 +1,5 @@
 module.exports = mongoose => {
-    const Movie = mongoose.model(
-      
+    const Movie = mongoose.model(   
         "movie",
         mongoose.Schema(
           {
